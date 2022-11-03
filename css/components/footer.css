@@ -1,0 +1,31 @@
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #f07e0c;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #611edd;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+.minions {
+  position: absolute;
+  bottom: auto;
+  width: 5%;
+  margin-top: -20px;
+  animation: minions 13s normal infinite ease-in-out;
+  mix-blend-mode: darken;
+}
+@keyframes minions {
+  from{left:0px}
+  to{left:100%}
+}
